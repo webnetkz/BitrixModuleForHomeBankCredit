@@ -1,4 +1,4 @@
-<h1>Screenshoter <u>V.1.0.0</u> <img src="icon.png" style="float: right"></h1>
+<h1>Screenshoter <u>V.1.0.0</u> <img src="./images/icon.png" style="float: right"></h1>
 
 <hr>
 This program for fast screenshot of display coordinats
