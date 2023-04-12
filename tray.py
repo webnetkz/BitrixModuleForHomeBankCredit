@@ -24,13 +24,14 @@ def on_tray_icon_clicked(icon):
     icon.visible = not icon.visible
 
 def create_tray_icon():
-    image = Image.open('icon.png')
+    pathImage = resource_path("./images/icon.png")
+    image = Image.open(pathImage)
     menu_items = [
         # pystray.MenuItem('Settings', on_show_settings),
         pystray.MenuItem('Quit', on_quit)
     ]
     menu = pystray.Menu(*menu_items)
-    icon = pystray.Icon('Get Text', image, 'Get Text', menu)
+    icon = pystray.Icon('Screenshoter', image, 'Screenshoter', menu)
     icon.run()
 
 
