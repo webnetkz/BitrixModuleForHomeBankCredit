@@ -1,4 +1,11 @@
-<h1>Screenshoter <u>V.1.0.0</u> <img src="./images/icon.png" style="float: right" style="max-width: 100px; width: 100px;"></h1>
+<style>
+.logo {
+  width: 100px;
+  max-width: 100px!important;
+}
+</style>
+
+<h1>Screenshoter <u>V.1.0.0</u> <img src="./images/icon.png" style="float: right" class="logo"></h1>
 
 <hr>
 This program for fast screenshot of display coordinats
