@@ -58,3 +58,4 @@ def select_area():
 
     root.mainloop()
 
+select_area()
